@@ -1,0 +1,44 @@
+<div class="auth-container">
+  <form class="card-form" action="/sendmessage" method="POST">
+  <h5 class="mb-3 font-weight-bold">Entre em contato conosco:</h5>
+    <div class="col mb-2">
+      <input
+        type="text"
+        name="name"
+        class="form-control"
+        placeholder="Nome"
+        required
+      />
+    </div>
+    <div class="col mb-2">
+      <input
+        type="email"
+        name="email"
+        class="form-control"
+        placeholder="E-mail"
+        required
+      />
+    </div>
+    <div class="col mb-2">
+      <input
+        type="text"
+        name="subject"
+        class="form-control"
+        placeholder="Assunto"
+        required
+      />
+    </div>
+    <div class="col mb-3">
+      <textarea
+        name="message"
+        class="form-control"
+        rows="5"
+        placeholder="Escreva sua mensagem aqui!"
+        required
+      ></textarea>
+    </div>
+    <div class="col">
+      <input type="submit" class="btn" value="Enviar" />
+    </div>
+  </form>
+</div>

@@ -1,0 +1,27 @@
+<div class="auth-container">
+  <form class="card-form" action="/login" method="POST">
+    <div class="col mb-2">
+      <label class="form-label text-justify" for="email">E-mail:</label>
+      <input
+        class="form-control"
+        type="email"
+        name="email"
+        placeholder="Digite o seu e-mail"
+      />
+    </div>
+    <div class="col mb-4">
+      <label class="form-label text-justify" for="password">Senha:</label>
+      <input
+        class="form-control"
+        type="password"
+        name="password"
+        placeholder="Digite a sua senha"
+      />
+    </div>
+    <div class="col mb-2">
+      <input type="submit" value="Entrar" class="btn" />
+    </div>
+    <p class="text-center mb-0 mt-0">Não tem conta?
+      <a href="/register">Clique aqui</a></p>
+  </form>
+</div>

@@ -1,0 +1,30 @@
+CHECKLIST
+- HOME (OK)
+- SERVICES (OK)
+- CONTATO (OK)
+
+FALTA O FRONT
+- /Consult(pedir cpf, ID do pedido e botão)
+   Deve aparecer abaixo após click = Nome do cliente, Procedimento, Terapeuta, data e horario
+- /Homestaff (Listar agendamentos por ordem de data mais recente e colocar botão de logout)
+- /Editclient (Editar e apagar dados do cliente)
+- /Editagenda (Editar e apagar agendamento)
+
+PEDENTE BANCO DE DADOS
+- Client
+- Agenda
+
+PENDENTE ROTAS E CONTROLLERS
+/client
+- cadastrar e redirect "/agendar"
+
+/agendar 
+- cadastrar e redirect "/"
+
+/consult
+- Puxar informações por meio do ID(agenda) e CPF(client)
+- Deve aparecer abaixo (Nome do cliente, Procedimento, Terapeuta, data e horario)
+
+/homestaff
+- Listar todos os clientes e agenda por ordem de data e horário na home.
+- Fazer rotas de editar e apagar ambos.

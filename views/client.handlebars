@@ -1,0 +1,249 @@
+<div class="menu">
+      <div class="colunm">
+      <a href="/services">Serviços</a>
+    <a href="/contato">Contato</a>
+    </div>
+    </div>    
+    <img class="sandbar" src="/img/menu.png"/> 
+<nav class="navbar second">
+  <div class="nav-itens">
+    <a href="/services">Serviços</a>
+    <a href="/contato">Contato</a>
+  </div>
+</nav>
+<div id="agendar">
+    <h4>Cadastre-se aqui!</h4>
+    <h6>Caso ja tenha cadastro <a href="/agendar">clique aqui!</a></h6>
+<form action="/client/insert" method="POST">
+<details>
+    <summary><i class="bi bi-arrow-down-circle-fill active"></i> <i class="bi bi-arrow-up-circle-fill inactive"></i> Preencha seus dados</summary> 
+    <div class="row colunm">
+      <div class="col-md-3 ">
+    <label for="cpf" class="form-label">CPF: </label>
+    <input type="text" name="cpf" class="form-control">
+  </div>
+  <div class="col-md-5 ">
+    <label for="nome" class="form-label">Nome: </label>
+    <input type="text" name="nome" class="form-control">
+  </div>
+  <div class="col-md-1">
+    <label for="idade" class="form-label">Idade: </label>
+    <input type="text" name="idade" class="form-control">
+  </div>
+  <div class="col-md-3">
+    <label for="contato" class="form-label">Contato: </label>
+    <input type="text" name="contato" class="form-control">
+  </div>
+  <div class="col-md-6">
+    <label for="end" class="form-label">Endereço: </label>
+    <input type="text" name="end" class="form-control">
+  </div>
+   <div class="col-md-3">
+    <label for="bairro" class="form-label">Bairro: </label>
+    <input type="text" name="bairro" class="form-control">
+  </div>
+   <div class="col-md-3">
+    <label for="cidade" class="form-label">Cidade: </label>
+    <input type="text" name="cidade" class="form-control">
+  </div>
+  </div>
+  </details>
+
+
+  <details>
+     <summary><i class="bi bi-arrow-down-circle-fill active"></i> <i class="bi bi-arrow-up-circle-fill inactive"></i> Ficha de Anamnese</summary>
+    <div class="row">
+      <div class="col-md-12">
+        <label for="queixa" class="form-label">Queixa Principal: </label>
+        <input type="text" name="queixa" class="form-control">
+      </div>
+       <div class="col-md-2">
+        <label for="trombose" class="form-label mt-2">Trombose: </label>
+        <select name="trombose" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="hipotenso" class="form-label mt-2">Hipotenso: </label>
+        <select name="hipotenso" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="hipertenso" class="form-label mt-2">Hipertenso: </label>
+        <select name="hipertenso" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="tontura" class="form-label mt-2">Tontura: </label>
+        <select name="tontura" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="diabetico" class="form-label mt-2">Diabético: </label>
+        <select name="diabetico" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="alimentou" class="form-label mt-2">Alimentou-se: </label>
+        <select name="alimentou" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="atividade" class="form-label mt-2">Atividade Física: </label>
+        <select name="atividade" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="fumante" class="form-label mt-2">Fumante: </label>
+        <select name="fumante" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="ciclo" class="form-label mt-2">Ciclo Menstrual: </label>
+        <select name="ciclo" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="osteoporose" class="form-label mt-2">Osteoporose: </label>
+        <select name="osteoporose" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>
+        <div class="col-md-2">
+        <label for="infeccao" class="form-label mt-2">Infecção: </label>
+        <select name="infeccao" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>          
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="marcapasso" class="form-label mt-2">Marca Passo: </label>
+        <select name="marcapasso" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="alergia" class="form-label mt-2">Alergia: </label>
+        <select name="alergia" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="protese" class="form-label mt-2">Prótese: </label>
+        <select name="protese" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="lesoes" class="form-label mt-2">Lesões: </label>
+        <select name="lesoes" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="botox" class="form-label mt-2">Botox: </label>
+        <select name="botox" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="cirurgia" class="form-label mt-2">Cirurgia: </label>
+        <select name="cirurgia" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-2">
+        <label for="epiletico" class="form-label mt-2">Epilético: </label>
+        <select name="epiletico" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-12">
+        <label for="historico" class="form-label mt-2">Histórico Familiar: </label>
+        <input type="text" name="historico" class="form-control">
+      </div>
+      <div class="col-md-12">
+        <label for="endocrino" class="form-label mt-2">Sistema Endócrino: </label>
+        <input type="text" name="endocrino" class="form-control">
+      </div>
+      <div class="col-md-12">
+        <label for="respiratorio" class="form-label mt-2">Sistema Respiratório: </label>
+        <input type="text" name="respiratorio" class="form-control">
+      </div>
+      <div class="col-md-md-12">
+        <label for="circulatorio" class="form-label mt-2">Sistema Circulatório/Cardíaco: </label>
+      </div>
+        <div class="col-md-6">
+        <label for="varizes" class="form-label">Varizes: </label>
+        <input type="text" name="varizes" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <label for="cardiopatia" class="form-label">Cardiopatia: </label>
+        <input type="text" name="cardiopatia" class="form-control">
+      </div>
+      <div class="col-md-12">
+        <label for="gastro" class="form-label mt-2">Sistema Gastrointestinal: </label>
+      </div>
+      <div class="col-md-4">
+        <label for="refluxo" class="form-label">Refluxo: </label>
+        <select name="refluxo" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-4">
+        <label for="constipacao" class="form-label mt-2">Constipação Intestinal: </label>
+        <select name="constipacao" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-4">
+        <label for="gastrite" class="form-label mt-2">Gastrite: </label>
+        <select name="gastrite" class="form-select">
+          <option value="nao">Não</option>
+          <option value="sim">Sim</option>
+        </select>
+      </div>  
+      <div class="col-md-12">
+        <label for="urinario" class="form-label mt-2">Sistema Urinário: </label>
+        <input type="text" name="urinario" class="form-control">
+      </div>
+      <div class="col-md-12">
+        <label for="muscular" class="form-label mt-2">Sistema Esquelético/Muscular: </label>
+        <input type="text" name="muscular" class="form-control">
+      </div>
+      <div class="col-md-12">
+        <label for="pergunta" class="form-label mt-2">Existe alguma pergunta que não foi feita e você gostaria de relatar?</label>
+        <input type="text" name="pergunta" class="form-control">
+      </div>
+    </div>
+  </details>
+  <input type="submit" class="btn" value="Cadastrar">
+  </form>
+</div>
